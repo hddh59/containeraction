@@ -1,0 +1,16 @@
+name: 'my first container action'
+description: 'A Djamel inovation'
+author: 'Djamel H'
+inputs:
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Awesome Djamel'
+  outputs:
+    myOutput:
+      description: 'total memory'
+    runs:
+      using: 'docker'
+      image: 'Dockerfile'
+      
+  
