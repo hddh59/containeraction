@@ -6,6 +6,9 @@ inputs:
     description: 'greeting to use'
     required: true
     default: 'Awesome Djamel'
+  myInput2:
+    description: '---------'
+    required: false
 outputs:
   myOutput:
     description: 'total memory'
