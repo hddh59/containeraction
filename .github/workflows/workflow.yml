@@ -15,4 +15,5 @@ jobs:
     - name: output the memory
       run: |
           echo ${{ steps.hello.outputs.memory }}
+          echo ${{ steps.hello.outputs.cpu }}
           echo "total memory sucessfully output"
