@@ -11,7 +11,7 @@ jobs:
       uses: ./
       with:
         myInput: 'Djamel HADDADI'
-    - name: output the mem
+    - name: output the memory
       run: |
           echo ${{ steps.hello.outputs.memory }}
           echo "total memory sucessfully output"
