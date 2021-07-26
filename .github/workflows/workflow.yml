@@ -11,6 +11,7 @@ jobs:
       uses: ./
       with:
         myInput: 'Djamel HADDADI'
+        myInput2: 'Wattrelos ville'
     - name: output the memory
       run: |
           echo ${{ steps.hello.outputs.memory }}
