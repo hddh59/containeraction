@@ -12,6 +12,8 @@ inputs:
 outputs:
   myOutput:
     description: 'total memory'
+  myOutputCpu:
+    description: 'total cpu'
 runs:
   using: 'docker'
   image: 'Dockerfile'
